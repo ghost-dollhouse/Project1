@@ -1,3 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Mudroye derevo");
-Console.WriteLine("Hello, World!");
+int a;
+a = Convert.ToInt32(Console.ReadLine());
+if (a == 1)
+{
+    Console.WriteLine("Mudroye derevo");
+}
+else
+{
+    Console.WriteLine("Hello, World!");
+}
